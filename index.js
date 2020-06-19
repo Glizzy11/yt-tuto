@@ -10,4 +10,4 @@ client.on("message", message => {
     console.log(message.content);
 })
 
-client.login(token)
+client.login(process.env.TOKEN)
